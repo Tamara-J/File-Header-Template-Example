@@ -10,11 +10,11 @@ This project is a guide for setting up a custom file header template in Xcode.
 - Name the file `IDETemplateMacros.plist`.
 - We now need to move the file to a new location because the location determines the scope of the template. The list of locations is available [here](https://help.apple.com/xcode/mac/9.0/index.html?localePath=en.lproj#/dev91a7a31fc).
 
-For a specific project(per user): `<ProjectName>.xcodeproj/xcuserdata/[username].xcuserdatad/`
-For a specific project(shared with team): `<ProjectName>.xcodeproj/xcshareddata/`
-For all projects in a specific workspace(per user): `<WorkspaceName>.xcworkspace/xcuserdata/[username].xcuserdatad/`
-For all projects in a specific workspace(shared with team): `<WorkspaceName>.xcworkspace/xcshareddata/`
-Globally for Xcode: `~/Library/Developer/Xcode/UserData/`
+For a specific project(per user): `<ProjectName>.xcodeproj/xcuserdata/[username].xcuserdatad/` \
+For a specific project(shared with team): `<ProjectName>.xcodeproj/xcshareddata/` \
+For all projects in a specific workspace(per user): `<WorkspaceName>.xcworkspace/xcuserdata/[username].xcuserdatad/` \
+For all projects in a specific workspace(shared with team): `<WorkspaceName>.xcworkspace/xcshareddata/` \
+Globally for Xcode: `~/Library/Developer/Xcode/UserData/` \
 
 In my case I only needed to use it for this specific project so I've moved it inside `xcuserdata` folder. The easiest way to move this file to that location is by right-clicking on the xcodeproj/xcworkspace file and using `Show Package Contents`.
 
@@ -27,9 +27,11 @@ In my case I only needed to use it for this specific project so I've moved it in
 	<string>Our customized template text</string>
 </dict>
 ```
+
 NOTE: We could also do this at the beginning when we create the plist file and add this key directly from Xcode.
 
 - Then set the value of the new entry to the desired text. The string value can include placeholders from the macros available on [this link](https://help.apple.com/xcode/mac/9.0/index.html?localePath=en.lproj#/dev7fe737ce0) wrapped with 3 underscores or use custom ones.
+
 e.g.
 ```
 <dict>
@@ -46,8 +48,8 @@ This is a 4 line header example showing the project name, the user full user nam
 NOTE: If the company/organisation name is empty for the project the copyright string will also be empty.
 
 - To create a custom macro, we just need to add a key inside the dict.
-e.g.
 
+e.g.
 ```
 <dict>
 <key>SEPARATOR</key>
@@ -62,7 +64,8 @@ ___SEPARATOR___
 </string>
 </dict>
 ```
-You could also use it define a custom author name that should be different from the system's full name
+You could also use it define a custom author name that should be different from the system's full name:
+
 e.g.
 ```
 <key>CUSTOMAUTHOR</key>
