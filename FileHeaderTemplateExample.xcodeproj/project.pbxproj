@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		32E3B8A32E5F47AD00EFE2B9 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E3B8A22E5F47AD00EFE2B9 /* Test.swift */; };
+		32E3B8AF2E5F494D00EFE2B9 /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E3B8AE2E5F494D00EFE2B9 /* Test2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32E3B8702E5F419A00EFE2B9 /* FileHeaderTemplateExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileHeaderTemplateExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E3B8A22E5F47AD00EFE2B9 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		32E3B8AE2E5F494D00EFE2B9 /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +39,7 @@
 		32E3B8672E5F419A00EFE2B9 = {
 			isa = PBXGroup;
 			children = (
+				32E3B8AE2E5F494D00EFE2B9 /* Test2.swift */,
 				32E3B8A22E5F47AD00EFE2B9 /* Test.swift */,
 				32E3B8722E5F419A00EFE2B9 /* FileHeaderTemplateExample */,
 				32E3B8712E5F419A00EFE2B9 /* Products */,
@@ -126,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E3B8AF2E5F494D00EFE2B9 /* Test2.swift in Sources */,
 				32E3B8A32E5F47AD00EFE2B9 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
