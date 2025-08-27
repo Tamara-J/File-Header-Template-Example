@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		32E3B87F2E5F429C00EFE2B9 /* IDETemplateMacros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32E3B87E2E5F429C00EFE2B9 /* IDETemplateMacros.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		32E3B8702E5F419A00EFE2B9 /* FileHeaderTemplateExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileHeaderTemplateExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E3B87E2E5F429C00EFE2B9 /* IDETemplateMacros.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IDETemplateMacros.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		32E3B8672E5F419A00EFE2B9 = {
 			isa = PBXGroup;
 			children = (
+				32E3B87E2E5F429C00EFE2B9 /* IDETemplateMacros.plist */,
 				32E3B8722E5F419A00EFE2B9 /* FileHeaderTemplateExample */,
 				32E3B8712E5F419A00EFE2B9 /* Products */,
 			);
@@ -110,6 +116,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E3B87F2E5F429C00EFE2B9 /* IDETemplateMacros.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
