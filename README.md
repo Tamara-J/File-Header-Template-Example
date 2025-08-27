@@ -42,6 +42,9 @@ e.g.
 </string>
 </dict>
 ```
+This is a 4 line header example showing the project name, the user full user name, a simple separator and the default copyright.
+NOTE: If the company/organisation name is empty for the project the copyright string will also be empty.
+
 - To create a custom macro, we just need to add a key inside the dict.
 e.g.
 
