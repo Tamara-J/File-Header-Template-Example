@@ -79,6 +79,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
+				ORGANIZATIONNAME = "Tamara Dev Solutions";
 				TargetAttributes = {
 					32E3B86F2E5F419A00EFE2B9 = {
 						CreatedOnToolsVersion = 16.4;
